@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all" >
+        <item
+            android:id="@+id/mnuItem1"
+            android:title="@string/check1"
+            android:titleCondensed="@string/ccheck1" />
+        <item
+            android:id="@+id/mnuItem2"
+            android:checked="true"
+            android:title="@string/check2" />
+    </group>
+    <group
+        android:id="@+id/gprGrupoOption"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnuItem4"
+            android:title="@string/opcion4" />
+        <item
+            android:id="@+id/mnuItem5"
+            android:title="@string/opcion5" />
+        <item
+            android:id="@+id/mnuItem6"
+            android:title="@string/opcion6" />
+    </group>
+    <item
+        android:id="@+id/mnuItem7"
+        android:title="@string/opcion7" >
+        <menu >
+            <item
+                android:id="@+id/mnuSubMenu1"
+                android:numericShortcut="2"
+                android:title="@string/sub1" />
+            <item
+                android:id="@+id/mnuSubMenu2"
+                android:numericShortcut="2"
+                android:title="@string/sub2" />
+        </menu>
+    </item>
+</menu>
