@@ -20,4 +20,7 @@
     <string name="OpcionMenu">Seleccione una opción del menu</string>
     <string name="Agregar">Capture el texto a agregar al menu y presione Agregar</string>
     <string name="Agrega">Agregar al menu</string>
+    <string name="copiar">copiar</string>
+    <string name="pegar">pegar</string>
+    <string name="cortar">cortar</string>
 </resources>
